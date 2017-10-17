@@ -26,14 +26,14 @@ Inside that directory, it will generate the initial project structure:
 ```
 webapp
 |-- controller
-    |-- app.controller.js
+    |-- App.controller.js
 |-- css
     |-- style.css
 |-- i18n
     |-- i18n.properties
 |-- test
 |-- view
-    |-- app.view.xml
+    |-- App.view.xml
 |-- Component.js
 |-- manifest.json
 ```
@@ -45,7 +45,7 @@ sap.ui.define([
 ], function(Controller) {
     "use strict";
 
-    var oController = Controller.extend("namespace.webapp.controller.app");
+    var oController = Controller.extend("namespace.webapp.controller.App");
 
     /*
      * - Run on page load
@@ -71,7 +71,7 @@ sap.ui.define([
 ], function(Controller) {
     "use strict";
 
-    var oController = Controller.extend("myNamespace.myAppName.controller.app");
+    var oController = Controller.extend("myNamespace.myAppName.controller.App");
 
     /*
      * - Run on page load
