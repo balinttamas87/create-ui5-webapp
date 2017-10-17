@@ -1,6 +1,6 @@
 {
   "name": "create-ui5-webapp",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "preferGlobal": "true",
   "description": "",
   "main": "index.js",
