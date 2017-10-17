@@ -21,7 +21,7 @@ createComponent = (namespace = "namespace", componentName = "webapp") => {
 
     // create controller folder and app controller
     fs.mkdirSync(componentName + "/controller");
-    fs.writeFile(componentName + "/controller/app.controller.js", fileContent.controllerContent(namespace, componentName), (err) => {
+    fs.writeFile(componentName + "/controller/App.controller.js", fileContent.controllerContent(namespace, componentName), (err) => {
         if (err) throw err;
         console.log("app controller has been created");
     });
@@ -45,7 +45,7 @@ createComponent = (namespace = "namespace", componentName = "webapp") => {
 
     // create view folder and app view
     fs.mkdirSync(componentName + "/view");
-    fs.writeFile(componentName + "/view/app.view.xml", fileContent.viewContent, (err) => {
+    fs.writeFile(componentName + "/view/App.view.xml", fileContent.viewContent, (err) => {
         if (err) throw err;
         console.log("app view has been created");
     });

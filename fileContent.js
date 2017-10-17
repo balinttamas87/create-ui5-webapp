@@ -5,7 +5,7 @@ module.exports = {
 ], function(Controller) {
     "use strict";
 
-    var oController = Controller.extend("${namespace}.${componentName}.controller.app");
+    var oController = Controller.extend("${namespace}.${componentName}.controller.App");
 
     /*
      * - Run on page load
@@ -42,7 +42,7 @@ module.exports = {
     });
 
     /*
-     * - Run on page load
+     *
      */
     oComponent.prototype.init = function() {
 
@@ -87,7 +87,7 @@ module.exports = {
     },
     "sap.ui5": {
         "_version": "1.0.0",
-        "rootView": "${namespace}.${componentName}.view.app",
+        "rootView": "${namespace}.${componentName}.view.App",
         "dependencies": {
             "minUI5Version": "1.48.5",
             "libs": {
