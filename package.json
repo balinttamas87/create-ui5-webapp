@@ -1,0 +1,19 @@
+{
+  "name": "create-ui5-webapp",
+  "version": "1.0.21",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tamas Balint <balint.tamas87@gmail.com> https://github.com/balinttamas87",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "bin": {
+    "create-ui5-webapp": "index.js"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/balinttamas87/create-ui5-webapp.git"
+  }
+}
