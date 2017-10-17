@@ -38,7 +38,7 @@ webapp
 |-- manifest.json
 ```
 ### Optional parameters
-The namespace defaults to 'namespace'and the component's name defaults to 'webapp' within the files:
+The namespace defaults to 'namespace'and the app's name defaults to 'webapp' within the files:
 ```
 sap.ui.define([
     "sap/ui/core/mvc/Controller"
