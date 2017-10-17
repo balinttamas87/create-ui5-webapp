@@ -1,6 +1,6 @@
 {
   "name": "create-ui5-webapp",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "preferGlobal": "true",
   "description": "",
   "main": "index.js",
@@ -9,12 +9,11 @@
   },
   "author": "Tamas Balint <balint.tamas87@gmail.com> https://github.com/balinttamas87",
   "license": "MIT",
-  "preferGlobal": "true",
   "bin": {
     "create-ui5-webapp": "index.js"
   },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/balinttamas87/create-ui5-webapp.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balinttamas87/create-ui5-webapp.git"
   }
 }
